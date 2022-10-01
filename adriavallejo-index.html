@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="adriavallejo-style.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Número secreto</title>
+  </head>
+
+  <body>
+    <main>
+      <h1 class="title">Adivina el número secreto</h1>
+      <section id="codigo" class="flex wrap center">
+        <div class="w100 flex wrap">
+          <div class="w20">
+            <div class="cel flex" id="box1">*</div>
+          </div>
+          <div class="w20">
+            <div class="cel flex" id="box2">*</div>
+          </div>
+          <div class="w20">
+            <div class="cel flex" id="box3">*</div>
+          </div>
+          <div class="w20">
+            <div class="cel flex" id="box4">*</div>
+          </div>
+          <div class="w20">
+            <div class="cel flex" id="box5">*</div>
+          </div>
+        </div>
+      </section>
+      <section class="w100 flex wrap center comprobar">
+        <label class="w90" for="numero"
+          >Escribe aquí un número de 5 digitos</label
+        >
+        <input
+          class="w90"
+          type="number"
+          placeholder="01234"
+          id="numero"
+          name="numero"
+          value="01234"
+        />
+        <button class="w90" id="check">Comprobar</button>
+      </section>
+      <section class="w100 info">
+        <p class="w90" id="info">Primer intento, suerte!</p>
+      </section>
+      <section id="Result" class="section-box flex">
+        <div class="rowResult w100 flex wrap">
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+        </div>
+        <div class="rowResult w100 flex wrap">
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+        </div>
+        <div class="rowResult w100 flex wrap">
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+        </div>
+        <div class="rowResult w100 flex wrap">
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+        </div>
+        <div class="rowResult w100 flex wrap">
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+          <div class="w20">
+            <div class="celResult flex"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="adriavallejo-script.js"></script>
+  </body>
+</html>
